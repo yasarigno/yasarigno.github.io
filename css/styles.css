@@ -52,3 +52,19 @@ hr {
   border-width: 5px;
   width: 5%
 }
+
+/* For Exercises */
+
+.background_class_red {
+  background-color: red
+}
+.background_class_yellow {
+  background-color: yellow
+}
+.circular_pics {
+  border-radius: 100%
+}
+
+#passport_number {
+  color: red
+}
