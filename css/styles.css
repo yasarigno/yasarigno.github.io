@@ -34,6 +34,7 @@ a:link, a:visited {
   background-color: rgb(189,189,189);
   color: black;
   border: 2px solid rgb(144,190,92);
+  width: 100px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -51,6 +52,19 @@ hr {
   border-color: grey;
   border-width: 5px;
   width: 5%
+}
+
+.buttons {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+a {
+  margin-left: 10px;
+}
+
+.pictures {
+  width: 200px;
 }
 
 /* For Exercises */
