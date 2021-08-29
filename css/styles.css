@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(45,45,45);
+}
+
+h2 {
+  color: rgb(144,190,92)
+}
+
+h3 {
+  color: rgb(144,190,92)
+}
+
+h4 {
+  color: rgb(189,189,189)
+}
+
+h5 {
+  color: rgb(189,189,189)
+}
+
+p {
+  color: rgb(189,189,189)
+}
+
+table {
+  color: rgb(189,189,189)
+}
+
+ol {
+  color: rgb(189,189,189)
+}
+
+a:link, a:visited {
+  background-color: rgb(189,189,189);
+  color: black;
+  border: 2px solid rgb(144,190,92);
+  width: 100px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(144,190,92);
+  color: black;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%
+}
+
+.buttons {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+a {
+  margin-left: 10px;
+}
+
+.pictures {
+  width: 200px;
+}
+
+/* For Exercises */
+
+.background_class_red {
+  background-color: red
+}
+.background_class_yellow {
+  background-color: yellow
+}
+.circular_pics {
+  border-radius: 100%
+}
+
+#passport_number {
+  color: red
+}
