@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> My data science projects</title>
+  </head>
+
+  <body>
+    <h2>Project 3</h2>
+    <p> <em> <strong> mathematician</strong></em> </p>
+    <hr size="3" noshade>
+    <h5> Project slides are in French </strong></h5>
+    <img src="images/PSanté_03__support.pdf" alt="A project on nutritional grading of foods and beverages" width="250" height="250">
+    <a href="index.html">front page</a>
+  </body>
+</html>
