@@ -1,2 +1,5 @@
 # yasarigno.github.io
-this is Fırat's personal site
+<pre>
+This is Fırat's personal site.
+</pre>
+
