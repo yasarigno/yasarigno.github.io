@@ -17,7 +17,7 @@
 
 ## Haskell
 
-- C
+- Chris Racket'te Newton karekök hesaplama yöntemini yazıyor. [1.bölüm](https://www.youtube.com/watch?v=51xMniEPJe4) ve [2.bölüm](https://www.youtube.com/watch?v=d-Qgo91XFv0) Haskell'de yazılmış hali şuraya gelecek.
 
 ## Web site & Portfolio
 
