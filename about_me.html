@@ -7,9 +7,17 @@
     <title> About me </title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(content => {
+          document.getElementById('header').innerHTML = content;
+        });
+    </script>
   </head>
 
   <body>
+    <div id="header"></div>
     <h2>Fırat Yaşar</h2>
     <p> <em> <strong> Mathematician</strong></em> </p>
     <hr size="3">

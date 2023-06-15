@@ -7,8 +7,16 @@
     <title> My data science projects </title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(content => {
+          document.getElementById('header').innerHTML = content;
+        });
+    </script>
   </head>
   <body>
+    <div id="header"></div>
     <h2>Project 8</h2>
     <h3>Architecture of Big Data via Spark</h3>
     <h4>This is a start-up project which uses tools of transfer learning. Deployment tools are AWS and Databricks.

@@ -8,15 +8,20 @@
   <title>Alsace</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(content => {
+        document.getElementById('header').innerHTML = content;
+      });
+  </script>
 </head>
 
 <body>
+  <div id="header"></div>
   <h3> Places to see in Alsace</h3>
   <p> Ligne Maginot Fort Schoenenbourg </p>
   <img class="pictures" src="images\ligne_maginot.jpg" alt="ligne_maginot" width="800">
-  <div class="buttons">
-    <a href="index.html">front page</a>
-  </div>
 </body>
 
 </html>

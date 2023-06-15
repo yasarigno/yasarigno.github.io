@@ -8,9 +8,17 @@
   <title>Research</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(content => {
+        document.getElementById('header').innerHTML = content;
+      });
+  </script>
 </head>
 
 <body>
+  <div id="header"></div>
   <h2> Introduction to Natural Language Processing</h2>
 
   <h3>Week 1</h3>
