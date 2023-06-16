@@ -1,42 +1,22 @@
 body {
   background-color: rgb(45,45,45);
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 200px;
   font-family:courier;
-  min-height: 100vh;
-  margin: 10;
-  box-sizing: border-box;
-  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 header {
-  position: fixed;
-  top: 0;
-  bottom: 20%;
-  padding: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
   text-align: center;
 }
 
-body nav {
-  position: fixed;
-  top: 0;
-  background: fixed;
-  background-color: black;
-  margin: 30px;
-}
 ul {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  padding: 30px;
+  padding: 20px;
+  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 li {
   list-style: none;
-  font-size: 15px;
   font-weight: bold;
 }
 li{
