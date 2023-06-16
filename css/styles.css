@@ -4,15 +4,44 @@ body {
   margin-right: 200px;
   padding-top: 200px;
   font-family:courier;
+  min-height: 100vh;
+  margin: 10;
+  box-sizing: border-box;
+  margin-top: 200px;
 }
 
 header {
   position: fixed;
   top: 0;
   bottom: 20%;
-  width: 100%;
-  padding: 20px;
+  padding: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
+}
+
+body nav {
+  position: fixed;
+  top: 0;
+  background: fixed;
+  background-color: black;
+  margin: 30px;
+}
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 30px;
+}
+li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+li{
+  text-decoration: none;
+  color: black;
 }
 
 h2 {
@@ -50,7 +79,7 @@ a:link, a:visited {
   background-color: rgb(189,189,189);
   color: black;
   border: 2px solid rgb(144,190,92);
-  width: 100px;
+  width: 120px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -77,6 +106,7 @@ hr {
 
 a {
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 .pictures {
